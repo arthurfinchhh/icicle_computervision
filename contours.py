@@ -3,7 +3,7 @@ import csv
 import numpy as np
 import matplotlib.pyplot as plt
 
-im = cv.imread('33f.jpg')
+im = cv.imread('   .jpg')
 gray = cv.cvtColor(im, cv.COLOR_BGR2GRAY)
 (thresh, bw) = cv.threshold(gray, 87, 256, cv.THRESH_BINARY)
 
